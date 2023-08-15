@@ -23,7 +23,7 @@ We will be explaining each step in the pipeline of Malign.
 
 - **Preprocessing** 
 
-  Run `converter.cpp` which takes any `.txt` file containing the file path that needed to be converted. It will generate new files in a folder named 'Modified'. Then run `convertedToFasta.cpp` on these newly generated files. After this, you will get the `.fasta` version of your hex files and you will use these files in the next steps.
+  Run `converter.cpp` which takes any `.txt` file containing the file path that needed to be converted. It will generate new files in a folder named 'Modified'. Then change the directory to 'Modified' and run `convertedToFasta.cpp` on these newly generated files. After this, you will get the `.fasta` version of your hex files and you will use these files in the next steps.
 
 - **Running MSA**
 
