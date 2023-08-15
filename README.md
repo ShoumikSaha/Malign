@@ -49,7 +49,7 @@ We will be explaining each step in the pipeline of Malign.
 
 - **Input Generation for Classification Model**
   
-  Run `csv_file_maker.cpp` file that will take in the `score_output.txt` file generated in Phase 1. It will iterate through every `alignment.maf` file from the previous step, and generate *alignment score* for each of them. These scores will be saved in a `.csv` file with the file name.
+  Run `csv_file_maker.cpp` file that will take in the `score_output.txt` file generated in Phase 1. It will iterate through every `alignment.maf` file from the previous step, and generate *alignment score* for each of them. These scores will be saved in `.csv` files depending on positive and negative labels.
 
 - **Classification**
 
