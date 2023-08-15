@@ -8,13 +8,13 @@ Malign is a static malware family classification tool that adopts multiple seque
 
 ## Installing with conda
 
-SibeliaZ can be installed using [bioconda] (https://bioconda.github.io/). 
+SibeliaZ can be installed using [bioconda](https://bioconda.github.io/). 
 After installing bioconda, run this command - 
 ```
 conda install sibeliaz
 ```
 
-For more details, read the documentation of [SibeliaZ] (https://github.com/medvedevgroup/SibeliaZ).
+For more details, read the documentation of [SibeliaZ](https://github.com/medvedevgroup/SibeliaZ).
 
 ## Pipeline
 We will be explaining each step in the pipeline of Malign.
